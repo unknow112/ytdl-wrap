@@ -19,7 +19,7 @@ UrlRx = re.compile('(^|[\\s])(https?://[^\\s]+)[\\s]?')
 
 YtdlParams = {
     'audio': ['--extract-audio','--audio-format','mp3'],
-    'video': ['--merge-output-format','mp4']
+    'video': ['-f','mp4']
 }
 
 def main(target_type):
