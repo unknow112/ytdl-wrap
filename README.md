@@ -17,5 +17,6 @@ Script takes one arg, 'audio' or 'video'. This will be locked by two different d
 After clicking on the shortcut, you get a prepared notepad window with temp file. place your desired links here. 
 
 Save the file and close notepad. Now you just wait until its all downloaded.
+As a part of download process, the youtube-dl is updated with pip first
 
 The script downloads to the directory from where it was launched
